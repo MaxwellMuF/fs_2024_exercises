@@ -1,12 +1,14 @@
 # Submission:
-This is the submission for the task "Exercise Deep Reinforcement Learning: Flappy Bird" of the lecture "Advanced Software Engineering (WiSe23)".
+This is the submission for the task "Sub_2_Deep_Q_Learning_flappy_bird" of the lecture "Advanced Software Engineering (WiSe24/25)".
 
 name: Sebastian von Rohrscheidt
 
 matrikel: 102090
 
 # Summary
+The most time was invested in this task. The goal of beating the given benchmark models was achieved. This was accomplished by increasing the initialization of the lr and epsion and decreasing them over time using an e function. In addition, the probability of a jump was also first set to 10% and ended up at 50% over time (default). Please note the training prints for 2025 (Sub_2_Deep_Q_Learning_flappy_bird\trained_models\train_prints_19_01_25.txt).
 
+Further work could show that individual hyperparameters contributed more or less to the success. But this would require many more experiments and a metric would have to be programmed, e.g. like '100 test runs end on average after x minutes with a failed attempt (collision with obstacle). However, it is assumed that a decay through an e function (also beyond fbird) can lead to good results. This concept is well known in damped harmonic oscillators (approach to solving the DGL) and is used in mechanics, electrodynamics and quantum mechanics. It is reasonable to apply this to 'simulated neurons' or similar.
 
 # Setting:
 Spider was used for training (but VS code for the repository).
@@ -26,7 +28,10 @@ To get a better understanding of the flappy bird model, the agent was trained se
     2. epsilon: The rate of random actions with decay. The exploration rate was strongly increased at the beginning and then a damping (decrease) was built in with an e-function until the final_epsilon was reached at the end of the training.
     3. random_action: The probability of making a jump as a random action has been reduced (again with decay). Initially only 10% of random actions are a jump. With a further decay, the rate will be 50/50 again at the end (or for the last 30% of the training).
 
-Thus, an agent could be trained that could pass 3-4 or more tunnels (after 200k training iterations, 1-2 tunnel after 100k iter), at least in some scenarios. However, it is suspected that this agent is overtrained and it remains to be seen whether he can ever master the perfect game and whether he needs less than 2m iterations of training to do so. The overtraining is visible when the agent (bird) hits a wall. This action seems to be far from the perfect game, even if it only occurs after 5-10 tunnels have been successfully passed. Nevertheless, this last agent (200k training iter) seems to perform better than the given 1m agent.
+# Conclusion
+The models "flappy_bird_S-R_xxxx_high_lr_eps" were trained one year ago on a laptop and are surprisingly good (probably because the lr decay is completed at 200k, while with the 200k model (trained 2025) a very high lr leads to temporary overfitting).
+The "flappy_bird_SR_xxxx_dec_lr_eps_xh_xm" models were trained in 2025 on a v100 GPU on the BHt cluster. Nevertheless, it took 18h for the 2m model. On a CPU it would have taken more than twice as long.
+However, it is noticeable that the 1m model (2025) is significantly better than the given 1m benchmark model. Furthermore, no more failed attempts could be observed from the 1.3m model onwards. However, this is not meaningful, as mentioned in the summary, a metric would be needed for an appropriate evaluation. For example, a collision could be observed by chance with the given 2m model. The same could also apply to the 2025 models.
 
 # Link to Git Repo
-https://github.com/MaxwellMuF/Submissions_Advanced_Software_Engineering_-WiSe23-/tree/main/Sub_2_flappy_bird
+https://github.com/MaxwellMuF/fs_2024_exercises

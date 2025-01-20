@@ -1,12 +1,12 @@
 # Submission:
-This is the submission for the task "Exercise Reinforcement Learning: Taxi Driver" of the lecture "Advanced Software Engineering (WiSe24/25)".
+This is the submission for the task "Sub_7_Sentiment_Analyzer_BERT" of the lecture "Advanced Software Engineering (WiSe24/25)".
 
 name: Sebastian von Rohrscheidt
 
 matrikel: 102090
 
-# Comment:
-The AI was trained and tested as specified.
+# Summary
+The BERT model was trained on a v100 GPU on the BHT cluster. Small changes were made to the code for e.g. dependency issues and training documentation. The model was successfully trained and predicted the labels of the test prompts with 100% accuracy.
 
 # Changes with respect to given code:
 First Error:
@@ -17,4 +17,4 @@ Second Error:
 - Solution: add to requirements `evaluate`, i.e. replace `dataset.load_metric` with  `evaluate.load` (see: https://discuss.huggingface.co/t/cant-import-load-metric-from-datasets/107524)
 
 # Link to Git Repo
-https://github.com/MaxwellMuF/Submissions_Advanced_Software_Engineering_-WiSe23-/tree/main/Sub_1_Taxi_Driver
+https://github.com/MaxwellMuF/fs_2024_exercises
