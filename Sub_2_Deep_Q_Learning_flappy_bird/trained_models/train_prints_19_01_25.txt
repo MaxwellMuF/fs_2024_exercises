@@ -1,0 +1,80 @@
+
+Iteration: 100000/2000000, Action: 0, no_act_prob: 9, Loss: 0.0005589445354416966, Epsilon: 0.9, lr: 0.0001 Reward: 0.1, Q-value: 3.4306490421295166
+Current time: 0h 55m 9s
+
+
+Iteration: 200000/2000000, Action: 0, no_act_prob: 9, Loss: 0.002187682082876563, Epsilon: 0.9, lr: 0.0001 Reward: 0.1, Q-value: 2.1001601219177246
+Current time: 1h 110m 16s
+
+
+Iteration: 300000/2000000, Action: 0, no_act_prob: 8, Loss: 0.0025373296812176704, Epsilon: 0.455846, lr: 5.0118706052327766e-05 Reward: 0.1, Q-value: 2.2104430198669434
+Current time: 2h 165m 23s
+
+
+Iteration: 400000/2000000, Action: 0, no_act_prob: 8, Loss: 0.001082696719095111, Epsilon: 0.455846, lr: 5.0118706052327766e-05 Reward: 0.1, Q-value: 4.436938762664795
+Current time: 3h 220m 30s
+
+
+Iteration: 500000/2000000, Action: 0, no_act_prob: 7, Loss: 0.004752261098474264, Epsilon: 0.2308839, lr: 2.5118846963596366e-05 Reward: 0.1, Q-value: 0.002627495676279068
+Current time: 4h 275m 38s
+
+
+Iteration: 600000/2000000, Action: 0, no_act_prob: 7, Loss: 0.00484312092885375, Epsilon: 0.2308839, lr: 2.5118846963596366e-05 Reward: 0.1, Q-value: -0.4135526418685913
+Current time: 5h 330m 45s
+
+
+Iteration: 700000/2000000, Action: 0, no_act_prob: 6, Loss: 0.00578466197475791, Epsilon: 0.1169417, lr: 1.2589241073418917e-05 Reward: 0.1, Q-value: 0.4380192160606384
+Current time: 6h 385m 53s
+
+
+Iteration: 800000/2000000, Action: 1, no_act_prob: 6, Loss: 0.0046529690735042095, Epsilon: 0.1169417, lr: 1.2589241073418917e-05 Reward: 0.1, Q-value: 0.37384042143821716
+Current time: 7h 441m 0s
+
+
+Iteration: 900000/2000000, Action: 0, no_act_prob: 5, Loss: 0.009177463129162788, Epsilon: 0.0592304, lr: 6.309564727805742e-06 Reward: 0.1, Q-value: 0.8971874713897705
+Current time: 8h 496m 9s
+
+
+Iteration: 1000000/2000000, Action: 0, no_act_prob: 5, Loss: 0.008398103527724743, Epsilon: 0.0592304, lr: 6.309564727805742e-06 Reward: 0.1, Q-value: 1.4975903034210205
+Current time: 9h 551m 16s
+
+
+Iteration: 1100000/2000000, Action: 0, no_act_prob: 4, Loss: 0.008964069187641144, Epsilon: 0.0299999, lr: 3.1622721991103144e-06 Reward: 0.1, Q-value: 1.7580878734588623
+Current time: 10h 606m 23s
+
+
+Iteration: 1200000/2000000, Action: 0, no_act_prob: 4, Loss: 0.009406361728906631, Epsilon: 0.0299999, lr: 3.1622721991103144e-06 Reward: 0.1, Q-value: 1.4103891849517822
+Current time: 11h 661m 30s
+
+
+Iteration: 1300000/2000000, Action: 0, no_act_prob: 3, Loss: 0.009720036759972572, Epsilon: 0.0151948, lr: 1.5848899080465786e-06 Reward: 0.1, Q-value: 3.7759735584259033
+Current time: 11h 716m 37s
+
+
+Iteration: 1400000/2000000, Action: 0, no_act_prob: 3, Loss: 0.008827950805425644, Epsilon: 0.0151948, lr: 1.5848899080465786e-06 Reward: 0.1, Q-value: 5.875060558319092
+Current time: 12h 771m 44s
+
+
+Iteration: 1500000/2000000, Action: 0, no_act_prob: 2, Loss: 0.006350180599838495, Epsilon: 0.0076961, lr: 7.943263142668727e-07 Reward: 0.1, Q-value: 4.0768232345581055
+Current time: 13h 826m 51s
+
+
+Iteration: 1600000/2000000, Action: 0, no_act_prob: 2, Loss: 0.011417390778660774, Epsilon: 0.0076961, lr: 7.943263142668727e-07 Reward: 0.1, Q-value: 4.001964092254639
+Current time: 14h 881m 58s
+
+
+Iteration: 1700000/2000000, Action: 0, no_act_prob: 1, Loss: 0.00588103337213397, Epsilon: 0.003898, lr: 3.981060705437035e-07 Reward: 0.1, Q-value: 4.379360198974609
+Current time: 15h 937m 5s
+
+
+Iteration: 1800000/2000000, Action: 0, no_act_prob: 1, Loss: 0.005299194250255823, Epsilon: 0.003898, lr: 3.981060705437035e-07 Reward: 0.1, Q-value: 5.887856483459473
+Current time: 16h 992m 12s
+
+
+Iteration: 1900000/2000000, Action: 0, no_act_prob: 1, Loss: 0.005225345492362976, Epsilon: 0.0019743, lr: 1.9952561127227136e-07 Reward: 0.1, Q-value: 5.470468997955322
+Current time: 17h 1047m 19s
+
+
+Iteration: 2000000/2000000, Action: 0, no_act_prob: 1, Loss: 0.005473482422530651, Epsilon: 0.0019743, lr: 1.9952561127227136e-07 Reward: 0.1, Q-value: 5.817316055297852
+Current time: 18h 1102m 26s
+
