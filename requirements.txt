@@ -1,0 +1,20 @@
+# Sub_1_Reinforcement_Learning_Taxi_Driver
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
+gymnasium
+
+# Sub_2_Deep_Q_Learning_flappy_bird
+pygame==2.5.2
+opencv-python==4.8.1.78
+torch==2.1.1
+numpy==1.26.2
+tensorboardX==2.6.2.2
+
+# Sub_7_Sentiment_Analyzer_BERT
+transformers[torch] # as error recommended
+datasets
+evaluate
+torchinfo

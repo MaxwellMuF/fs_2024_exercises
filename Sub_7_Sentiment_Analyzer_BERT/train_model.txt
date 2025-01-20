@@ -1,0 +1,74 @@
+The current working directory is: /workspace
+The new current working directory is: /workspace/Sub_7_Sentiment_Analyzer_BERT
+{'attention_mask': [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+ 'input_ids': [[101, 5342, 2047, 3595, 8496, 2013, 1996, 18643, 3197, 102],
+               [101,
+                3397,
+                2053,
+                15966,
+                1010,
+                2069,
+                4450,
+                2098,
+                18201,
+                2015,
+                102],
+               [101,
+                2008,
+                7459,
+                2049,
+                3494,
+                1998,
+                10639,
+                2015,
+                2242,
+                2738,
+                3376,
+                2055,
+                2529,
+                3267,
+                102]]}
+================================================================================
+Layer (type:depth-idx)                                  Param #
+================================================================================
+DistilBertForSequenceClassification                     --
+├─DistilBertModel: 1-1                                  --
+│    └─Embeddings: 2-1                                  --
+│    │    └─Embedding: 3-1                              23,440,896
+│    │    └─Embedding: 3-2                              393,216
+│    │    └─LayerNorm: 3-3                              1,536
+│    │    └─Dropout: 3-4                                --
+│    └─Transformer: 2-2                                 --
+│    │    └─ModuleList: 3-5                             42,527,232
+├─Linear: 1-2                                           590,592
+├─Linear: 1-3                                           1,538
+├─Dropout: 1-4                                          --
+================================================================================
+Total params: 66,955,010
+Trainable params: 66,955,010
+Non-trainable params: 0
+================================================================================
+{'loss': 0.3946, 'grad_norm': 1.9034631252288818, 'learning_rate': 4.7030526190759e-05, 'epoch': 0.06}
+{'loss': 0.3549, 'grad_norm': 15.849273681640625, 'learning_rate': 4.4061052381518e-05, 'epoch': 0.12}
+{'loss': 0.323, 'grad_norm': 1.2499011754989624, 'learning_rate': 4.109157857227699e-05, 'epoch': 0.18}
+{'loss': 0.3254, 'grad_norm': 4.706585884094238, 'learning_rate': 3.812210476303599e-05, 'epoch': 0.24}
+{'loss': 0.282, 'grad_norm': 7.818464756011963, 'learning_rate': 3.515263095379499e-05, 'epoch': 0.3}
+{'loss': 0.2708, 'grad_norm': 0.15207406878471375, 'learning_rate': 3.218315714455399e-05, 'epoch': 0.36}
+{'loss': 0.2611, 'grad_norm': 0.47048401832580566, 'learning_rate': 2.9213683335312986e-05, 'epoch': 0.42}
+{'loss': 0.2477, 'grad_norm': 62.1750373840332, 'learning_rate': 2.6244209526071984e-05, 'epoch': 0.48}
+{'loss': 0.2458, 'grad_norm': 0.1198292151093483, 'learning_rate': 2.3274735716830978e-05, 'epoch': 0.53}
+{'loss': 0.2471, 'grad_norm': 0.37097305059432983, 'learning_rate': 2.0305261907589976e-05, 'epoch': 0.59}
+{'loss': 0.242, 'grad_norm': 0.5126988291740417, 'learning_rate': 1.7335788098348973e-05, 'epoch': 0.65}
+{'loss': 0.2306, 'grad_norm': 7.285885334014893, 'learning_rate': 1.4366314289107971e-05, 'epoch': 0.71}
+{'loss': 0.2255, 'grad_norm': 29.84374237060547, 'learning_rate': 1.1396840479866969e-05, 'epoch': 0.77}
+{'loss': 0.2357, 'grad_norm': 3.348604679107666, 'learning_rate': 8.427366670625965e-06, 'epoch': 0.83}
+{'loss': 0.2122, 'grad_norm': 1.2145419120788574, 'learning_rate': 5.457892861384962e-06, 'epoch': 0.89}
+{'loss': 0.2073, 'grad_norm': 2.598935127258301, 'learning_rate': 2.4884190521439603e-06, 'epoch': 0.95}
+{'eval_loss': 0.34752801060676575, 'eval_accuracy': 0.9094036697247706, 'eval_runtime': 0.524, 'eval_samples_per_second': 1664.12, 'eval_steps_per_second': 208.015, 'epoch': 1.0}
+{'train_runtime': 156.6746, 'train_samples_per_second': 429.865, 'train_steps_per_second': 53.736, 'train_loss': 0.2654010325489708, 'epoch': 1.0}
+  trainer = Trainer(
+100%|████████████████████████████████████████████████████████████████████████████████████████████| 8419/8419 [02:36<00:00, 53.74it/s])
+
+End of training time: 0h 2m 43s

@@ -1,0 +1,20 @@
+The current working directory is: /workspace
+The new current working directory is: /workspace/Sub_7_Sentiment_Analyzer_BERT
+
+Prompt: This movie is great!
+Model prediction: [{'label': 'LABEL_1', 'score': 0.9997407793998718}]
+
+Prompt: This movie sucks
+Model prediction: [{'label': 'LABEL_0', 'score': 0.9977166652679443}]
+
+Prompt: This movie is not bad
+Model prediction: [{'label': 'LABEL_1', 'score': 0.9983428716659546}]
+
+Prompt: This movie is not that bad
+Model prediction: [{'label': 'LABEL_1', 'score': 0.9978210926055908}]
+
+Prompt: I want to see it again
+Model prediction: [{'label': 'LABEL_1', 'score': 0.9962087869644165}]
+
+Prompt: I don't want to see it again
+Model prediction: [{'label': 'LABEL_0', 'score': 0.9824885129928589}]

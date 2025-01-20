@@ -1,0 +1,16 @@
+.venv
+__pycache__
+
+# Sub_1_Reinforcement_Learning_Taxi_Driver
+animation_given.gif
+readme_given.txt
+requirements_given.txt
+
+# Sub_2_Deep_Q_Learning_flappy_bird
+tensorboard
+trained_models
+
+# Sub_7_Sentiment_Analyzer_BERT
+my_trainer
+model.safetensors
+# my_saved_model
