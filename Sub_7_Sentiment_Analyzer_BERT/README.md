@@ -6,7 +6,7 @@ name: Sebastian von Rohrscheidt
 matrikel: 102090
 
 # Summary
-The BERT model was trained on a v100 GPU on the BHT cluster. Small changes were made to the code for e.g. dependency issues and training documentation. The model was successfully trained and predicted the labels of the test prompts with 100% accuracy.
+The BERT model was trained on a v100 GPU on the BHT cluster. Small changes were made to the code for e.g. dependency issues and training documentation. The model was successfully trained [train_prints](train_model.txt) and predicted the labels of the test prompts with 100% accuracy [test_prints](test_model.txt).
 
 # Changes with respect to given code:
 First Error:
