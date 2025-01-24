@@ -6,7 +6,7 @@ name: Sebastian von Rohrscheidt
 matrikel: 102090
 
 # Summary
-The most time was invested in this task. The goal of beating the given benchmark models was achieved. This was accomplished by increasing the initialization of the lr and epsion and decreasing them over time using an e function. In addition, the probability of a jump was also first set to 10% and ended up at 50% over time (default). Please note the training prints for 2025 [train_prints_19_01_25](trained_models\train_prints_19_01_25.txt).
+The most time was invested in this task. The goal of beating the given benchmark models was achieved. This was accomplished by increasing the initialization of the lr and epsion and decreasing them over time using an e function. In addition, the probability of a jump was also first set to 10% and ended up at 50% over time (default). Please note the training prints for 2025 [train_prints_19_01_25](Sub_2_Deep_Q_Learning_flappy_bird/trained_models/train_prints_19_01_25.txt).
 
 Further work could show that individual hyperparameters contributed more or less to the success. But this would require many more experiments and a metric would have to be programmed, e.g. like '100 test runs end on average after x minutes with a failed attempt (collision with obstacle). However, it is assumed that a decay through an e function (also beyond fbird) can lead to good results. This concept is well known in damped harmonic oscillators (approach to solving the DGL) and is used in mechanics, electrodynamics and quantum mechanics. It is reasonable to apply this to 'simulated neurons' or similar.
 
